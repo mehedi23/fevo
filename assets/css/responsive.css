@@ -1,0 +1,371 @@
+@media screen and (max-width: 1366px) {
+    .banner-body .banner-img {
+        height: 90vh;
+    }
+
+    .banner-body .banner-article {
+        left: 39%;
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 1200px){ 
+    .feature-grid .feature-card .feature-demo{
+        padding: 50px 60px !important;
+    }
+
+    #our-team .team-info .img-name .team-img {
+        width: 110px;
+        height: 110px;
+    }
+
+}
+
+@media screen and (max-width: 1152px) {
+    #blogs .blogs-grid{
+        grid-template-columns:  300px 300px 300px;
+    }
+}
+
+
+
+@media screen and (max-width: 1025px) {
+    .banner-body .banner-img {
+        height: 100vh;
+    }
+
+    
+}
+
+
+@media screen and (max-width:  991px) {
+
+    /* banner */
+    .banner-body .banner-article{
+        width: 90%;
+        left: 50%;
+    }
+
+    /* banner */
+    .banner-body .banner-img {
+        height: 55vh;
+    }
+
+    .header-nav-area li:hover{
+        border-bottom: 3px solid transparent;
+    }
+
+    /* panel */ 
+    .panel-body .panel-title h2{
+        font-size: 18px ;
+    }
+
+    .panel-body .panel-img {
+        height: 160px;
+    }
+
+    /* feature */
+
+    .feature-list-body .number {
+        width: 6%;
+    }
+
+    .details-videos {
+        flex-wrap: wrap;
+    }
+
+    .videos iframe {
+        height: 300px;
+    }
+
+    .feature-list-body .details-videos {
+        margin-top: 0;
+    }
+
+    .feature-list-body .details-videos .details {
+        padding: 10px 0;
+    }
+
+    .res-details-videos {
+        flex-direction: column-reverse;
+    }
+
+    .feature-list-body .number .the-number span {
+        font-size: 60px;
+    }
+
+    .feature-list-body .number .the-number .green-lins .bg-green:last-of-type {
+        margin-left: 10px;
+    }
+
+    /* our feature */
+    .feature-grid .feature-card {
+        padding: 0 !important;
+    }
+
+    .feature-grid .feature-card p {
+        padding: 10px 0;
+        font-size: 14px;
+        padding: 25px 0;
+    }
+
+    .feature-grid .feature-card .feature-demo {
+        position: relative !important;
+        left: 0px;
+        top: 0;
+        transform: translate(0, 0);
+        padding: 12px 0 !important;
+    }
+
+    .feature-grid .feature-card:hover .feature-demo {
+        left: 0;
+    }
+
+    .feature-grid .feature-card:hover .feature-name {
+        transform: scale(1) rotate(0deg) !important;
+        position: relative !important;
+        right: 0 !important;
+    }
+
+    #our-feature .modal-content{
+        width: 500px;
+    }
+
+    /* how to use */
+    #useIt .howtoUse{
+        padding: 100px 20px;
+    }
+
+    
+
+     /* team */
+     #our-team .team-info .img-name .team-img {
+        width: 130px;
+        height: 130px;
+    }
+
+     #our-team .our-team-grid{ 
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    /* blogs */
+    #blogs .blogs-grid{ 
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* footer */
+
+    footer .download-btn{
+        height: 55px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 767px) { 
+    /* banner */
+    .banner-body .banner-img {
+        height: 100vh;
+    }
+
+    .banner-body .banner-img img {
+        width: auto !important;
+        height: 100% !important;
+    }
+
+    /* panel */
+    .panel-body .panel-title h2{
+        font-size: 24px ;
+    }
+
+    .panel-body .panel-img {
+        height: 260px;
+    }
+
+    .the-title h2{
+        font-size: 36px;
+    }
+
+    .panel-body {
+        margin-bottom: 20px;
+    }
+
+    .feature-list-body .number {
+        width: 10%;
+    }
+
+    .videos iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    .feature-list-body .details-videos .details p {
+        font-size: 13px;
+    }
+
+    /* our feature */
+    .feature-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #our-feature .modal-content{
+        width: 400px;
+    }
+
+    #our-feature .modal-content {
+        left: 47%;
+    }
+
+
+    /* how to use */
+    #useIt{
+        padding-top: 10px;
+    }
+
+    #useIt .howtoUse{
+        padding: 100px 30px;
+        display: grid;
+        place-items: center;
+    }
+
+    .use-it-in-resp{
+        flex-direction: column-reverse;
+    }
+
+    #useIt .howtoUse h2{
+        font-size: 36px;
+        margin: 0 !important;
+    }
+
+    #useIt .how-to-use-img{
+        height: 250px;
+        width: 100%;
+    }
+
+    #useIt #dp-slider, #useIt .dp-img img {
+        height: 275px;
+    }
+
+    /* testimonial */
+
+    #testimonial .review-details{
+        margin-bottom: 30px;
+    }
+
+    /* why */
+    #why h2{
+        font-size: 34px;
+        margin-bottom: 25px;
+    }
+
+
+    /* our achievement */
+    #our-achievement .counting h2{
+        font-size: 38px;
+        margin-bottom: 3px;
+    }
+
+    #our-achievement .counting span{
+        font-size: 14px;
+    }
+
+    #our-achievement .counting { 
+        margin-bottom: 44px;
+    }
+
+    /* team */
+
+    #our-team .our-team-grid{ 
+        grid-template-columns: 1fr;
+    }
+
+
+    /* blogs */
+    #blogs .blogs-grid{ 
+        grid-template-columns: 1fr ;
+    }
+
+    /* faq */
+    #faq .fqq-drop-down .question{
+        align-items: flex-start;
+    }
+
+    
+
+    /* footer */
+
+    footer .col-md-6.col-12.d-flex {
+        justify-content: space-between;
+    }
+
+    footer .download-btn {
+        width: 160px;
+        height: 60px;
+    }
+
+    footer .download-btn:first-child {
+        width: 150px;
+    }
+
+    footer .social-contact {
+        margin-top: 40px;
+        justify-content: center;
+    }
+
+
+    .back-to-top{
+        display:  none !important;
+    }
+}
+
+
+
+@media screen and (max-width: 414px) {
+
+    /* our feature */
+    #our-feature .modal-content{
+        width: 340px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .feature-list-body .number { 
+        width: 12%;
+    }
+
+     /* team */
+     #our-team .team-info .img-name .team-img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+
+@media screen and (max-width: 365px) {
+    .feature-list-body .number .bg-green {
+        width: 4px;
+    }
+
+    .feature-list-body .number {
+        margin: 0 5px; 
+    }
+
+}
+
+
+
+@media screen and (max-width: 320px) {
+    #our-feature .modal-content{
+        width: 300px;
+    }
+
+    #blogs .blogs-grid{
+        grid-template-columns: 280px;
+    }
+}
