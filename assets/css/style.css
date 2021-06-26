@@ -1191,6 +1191,8 @@ footer .copy-right {
 
 footer .copy-right a{
   color: #fff !important;
+  font-family: 'Comfortaa', cursive !important;
+  text-decoration: underline;
 }
 
 .back-to-top {
